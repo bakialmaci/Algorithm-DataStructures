@@ -3,15 +3,11 @@
 #include <stdlib.h>
 
 int main(){
-
-   int *dizi,i;
-
-   dizi=(int*)malloc(20*sizeof(int));
-
-   for(i=0;i<=20;i++){
-      *dizi=i;
-      printf("%d\n",*dizi);
-      dizi++;
-   }
-    getch();
+   int *dizi;
+	for(int j = 0;j<=1000000;j++){
+		dizi=(int*)malloc(j*sizeof(int));
+      	*dizi=j;
+      	printf("%d\n",*dizi);
+      	dizi++;
+   		}
 }

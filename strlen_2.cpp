@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main ()
-{
+int main (){
   char szInput[256];
   printf ("Enter a sentence: ");
   gets (szInput);

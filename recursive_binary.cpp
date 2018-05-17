@@ -5,11 +5,12 @@ int binary(int);
 int main(){
 	int input;
 	scanf("%d",&input);
-	printf("%d",binary(input));
+	binary(input);
 }
 
 int binary(int x){
 	if(x == 1) return 1;
-	return (x%2 + 10 * binary(x/2));
+	printf("%d",x%2);
+	return (binary(x/2));
 }
 
