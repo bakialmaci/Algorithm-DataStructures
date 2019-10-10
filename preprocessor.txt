@@ -1,0 +1,49 @@
+C Source Code -> C Program -> Are There PreProc Directives -> Compiler -> Linker -> Exe
+
+There are 4 main types of preprocessor directives:
+    1-Macros
+    2-File Inclusion
+    3-Conditional Compilation
+    4-Other directives
+
+Macros: Macros are a piece of code in a program which is given 
+some name. Whenever this name is encountered by the compiler 
+the compiler replaces the name with the actual piece of code. 
+The ‘#define’ directive is used to define a macro. Let us now 
+understand the macro definition with the help of a program:
+    #define LIMIT 5 
+
+
+Macros with arguments: We can also pass arguments to macros. 
+Macros defined with arguments works similarly as functions. 
+Let us understand this with a program:
+    #define AREA(a, b) (a * b)
+
+
+File Inclusion: This type of preprocessor directive tells 
+the compiler to include a file in the source code program. 
+There are two types of files which can be included 
+by the user in the program:
+
+Header File or Standard files:
+    #include< file_name >
+
+user defined files:
+    #include"filename"
+    
+
+Conditional Compilation: Conditional Compilation directives are 
+type of directives which helps to compile a specific portion 
+of the program or to skip compilation of some specific part of 
+the program based on some conditions. This can be done with 
+the help of two preprocessing commands ‘ifdef‘ and ‘endif‘.
+    #ifdef macro_name
+        statement1;
+        statement2;
+        statement3;
+        .
+        .
+        .
+        statementN;
+    #endif
+

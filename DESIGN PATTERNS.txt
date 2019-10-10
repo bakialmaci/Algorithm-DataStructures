@@ -1,0 +1,27 @@
+Nedir?
+    Yıllardır kullanınlan bir takım yapıların, relationların
+    ve yine yıllardır karşılaşılan bir takım klişe 
+    sorunların tecrübe ile çözümlenmesidir aslında.
+    Genelde OOP tabanlı yazılımlarda tercih edilen ve yaygınlaşan
+    bir kalıp bütünüdür.
+    Mesela bir WEB sitesi üzerinden örnek vermek gerekirse;
+    binler web sitesinde login sayfası bulunmakta aşşağı yukarı
+    aynı inputları ister ve check eder ve yine aynı oranda güvenlik
+    ister ya da güvenlik olarak ne istediği bellidir. 
+    İşte bu gibi durumlarda bir takım algoritma veya tasarım
+    kalıplarıyla bu sorunların üstesinden verimli ve hızlı bir 
+    biçimde gelinmeye çalışılmıştır.
+    MVC mimarisi bunun en güzel örneklerinden birisidir.
+    Bunu otomatize ederek daha konforlu bir proje sürecini sunuyor.
+
+Tasarım Kalıpları;
+
+1-Abstraction-Occurrence,
+    Verilerde karşılaşılan "duplicate" olaylarının üstesinden
+    gelmek için kullanılan bir kalıptır.
+    Genelde Abstraction-Occurrence kalıbında yapılan inheritence
+    class oluştırma işlemi sık yapılan hatalardan biridir.
+    Mesela kütüphanede her barkod verilen eşya kitaptır demek ne kadar
+    yanlışsa ismi,yazarı vs olan bir sınıftan inheritence bir class
+    oluşturmak o kadar saçma olabilir.
+    

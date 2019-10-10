@@ -1,0 +1,26 @@
+How to compile 32-bit program on 64-bit gcc in C and C++
+
+Command: gcc -v -> too see what bit system.
+
+Command: gcc -m32 source.c -o source
+
+
+
+#include<iostream>
+using namespece std;
+
+int main() 
+{ 
+	cout << "Size:" << sizeof(size_t); //size_t is unsigned type an integer data type.
+} 
+
+
+64-Bit compilation
+    Input: gcc -m64 geek.c -o out
+    Output: ./out
+    Size = 8
+
+32-Bit compilation
+    Input: gcc -m32 geek.c -o out
+    Output: ./out
+    Size = 4

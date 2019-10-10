@@ -1,0 +1,10 @@
+C++ STL?
+C++ STL veya Standart Template Library içerisinde çeşitli algoritma,
+sınıf ve fonksiyonlar barındıran generic programlama ile yazılmış
+şablon kütüphanesidir.
+
+STL içerisindeki yapı temel olarak algoritmalar taşıyıcılar(containers)
+ve döngüler(iterators) olmak üzere üçe ayrılır.
+
+Algoritmalar içrisinde genel olarak kullanılan sorting ve searching
+algoritmaları kullanılır.
