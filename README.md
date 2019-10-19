@@ -2,7 +2,7 @@
 
 This repository contains basic C/C++ code examples.
 
-I created these repository to improve perspective of beginners.
+I created this repository to improve perspective of beginners.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
